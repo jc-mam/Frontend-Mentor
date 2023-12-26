@@ -15,14 +15,10 @@ body {
 .container {
     background-color: hsl(0, 0%, 100%);
     font-family: Outfit;
-    margin: auto auto;
-    
+    margin: auto auto;   
     border-radius: 10px;
     text-align: center;
-
     padding: 10px;
-
-
     width: 250px;
 
 
