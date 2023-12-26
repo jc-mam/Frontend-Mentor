@@ -16,10 +16,10 @@ body {
     background-color: hsl(0, 0%, 100%);
     font-family: Outfit;
     margin: auto auto;   
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
-    padding: 10px;
-    width: 250px;
+    padding: 15px;
+    width: 320px;
 
 
 }
@@ -32,8 +32,11 @@ div p {
     font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    padding: 20px;
 }
 img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
