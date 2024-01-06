@@ -27,6 +27,10 @@ h1 {
   font-size: 17px;
   margin: 10px 0;
 }
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
 p {
   font-size: 0.8em;
   color: hsl(0, 0%, 50%);
