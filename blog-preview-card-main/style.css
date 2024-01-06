@@ -16,7 +16,7 @@ body {
 }
 .container {
   background-color: hsl(0, 0%, 100%);
-  width: 320px;
+  width: 290px;
   border: 1px solid hsl(0, 0%, 7%);
   border-radius: 15px;
   padding: 15px;
@@ -24,11 +24,11 @@ body {
 }
 h1 {
   font-weight: 800;
-  font-size: 19px;
+  font-size: 17px;
   margin: 10px 0;
 }
 p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: hsl(0, 0%, 50%);
   font-weight: 400;
   margin: 10px 0;
