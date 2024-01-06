@@ -27,9 +27,12 @@ h1 {
   font-size: 17px;
   margin: 10px 0;
 }
-h1:hover {
-  color: hsl(47, 88%, 63%);
+.container:hover {
+  box-shadow: 15px 15px hsl(0, 0%, 7%);
   cursor: pointer;
+}
+.container:hover > h1 {
+  color: hsl(47, 88%, 63%);
 }
 p {
   font-size: 0.8em;
