@@ -49,5 +49,8 @@ h1 img {
 }
 .answer {
     color: hsl(292, 16%, 49%);
-    display: none;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
