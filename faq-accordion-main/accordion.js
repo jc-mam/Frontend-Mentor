@@ -21,11 +21,13 @@ for (let i = 0; i < acc.length; i++) {
                 'src',
                 './assets/images/icon-plus.svg'
             );
+            this.firstElementChild.setAttribute('alt', 'expand icon');
         } else {
             this.firstElementChild.setAttribute(
                 'src',
                 './assets/images/icon-minus.svg'
             );
+            this.firstElementChild.setAttribute('alt', 'collapse icon');
         }
     });
 }
