@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./assets/images/background-pattern-desktop.svg') no-repeat
+        hsl(275, 100%, 97%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 580px;
+    padding: 20px;
+    border-radius: 15px;
+}
+h1 {
+    color: hsl(292, 42%, 14%);
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+h1 img {
+    margin-right: 1rem;
+}
+.question {
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+    border-top: solid 1px hsl(275, 100%, 97%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.question:hover {
+    color: hsl(292, 16%, 49%);
+}
+.question.no-border {
+    border: none;
+}
+.answer {
+    color: hsl(292, 16%, 49%);
+    display: none;
+}
